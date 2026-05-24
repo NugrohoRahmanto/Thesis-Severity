@@ -1,0 +1,18 @@
+[project]
+name = "thesis-severity"
+version = "0.1.0"
+description = "Pipeline notebook untuk gathering data pasien dan ekstraksi gambar ECG/mapping dari Google Drive."
+readme = "README.md"
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    "gdown>=5.2.0",
+    "ipykernel>=6.29.0",
+    "ipywidgets>=8.1.0",
+    "jupyterlab>=4.2.0",
+    "matplotlib>=3.9.0",
+    "pandas>=2.2.0",
+    "pillow>=10.4.0",
+]
+
+[tool.uv]
+package = false

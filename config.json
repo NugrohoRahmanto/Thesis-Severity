@@ -1,0 +1,29 @@
+{
+  "reference_image_size": {
+    "width": 1085,
+    "height": 767
+  },
+  "initial_crop_box": {
+    "x1": 30,
+    "y1": 120,
+    "x2": 1040,
+    "y2": 680
+  },
+  "model_paths": {
+    "lightweight_severity_model": "data/model-training-lightweight/final_lightweight_severity_ridge_model.npz",
+    "yolo_detector": "runs/yolo_pvc/yolo12_medium_pvc/weights/best.pt"
+  },
+  "signal_processing": {
+    "search_window_pixels": 40,
+    "consensus_pixel_tolerance": 25,
+    "min_votes": 3,
+    "cycle_half_window_pixels": 70,
+    "otsu_blur_kernel": 3,
+    "morph_kernel_size": 2,
+    "classification_thresholds": {
+      "normal": 20,
+      "mild": 40,
+      "moderate": 70
+    }
+  }
+}

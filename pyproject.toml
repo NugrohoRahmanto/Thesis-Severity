@@ -10,8 +10,11 @@ dependencies = [
     "ipywidgets>=8.1.0",
     "jupyterlab>=4.2.0",
     "matplotlib>=3.9.0",
+    "numpy>=2.0.0",
+    "opencv-python>=4.10.0",
     "pandas>=2.2.0",
     "pillow>=10.4.0",
+    "ultralytics>=8.3.0",
 ]
 
 [tool.uv]

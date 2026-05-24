@@ -3,3 +3,8 @@
 __pycache__/
 *.pyc
 data/
+/notebook-preprocess/yolo26n.pt
+/notebook-preprocess/yolo12n.pt
+/notebook-preprocess/yolo12s.pt
+/notebook-preprocess/yolo12m.pt
+/runs

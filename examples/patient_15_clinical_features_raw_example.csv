@@ -1,0 +1,2 @@
+patient_id,risk_hipertensi,risk_diabetes,risk_cad,syncope,coronary_catheterization,lvef,lvidd,tapse,rv_dilatation,diastolic_function_grade,holter_pvc_percent,run_vt
+P-00015,1.0,0.0,0.0,0.0,0.0,77.0,0.0,1.5,0.0,0.0,23.0,0.0

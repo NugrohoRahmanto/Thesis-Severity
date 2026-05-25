@@ -3,7 +3,7 @@ set -euo pipefail
 
 PROJECT_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 export PYTHONPATH="${PROJECT_ROOT}:${PYTHONPATH:-}"
-STREAMLIT_PORT="${STREAMLIT_PORT:-8501}"
+STREAMLIT_PORT="${PORT:-${STREAMLIT_PORT:-8501}}"
 
 if [[ ! -f "${PROJECT_ROOT}/config.json" ]]; then
   echo "Missing config.json at ${PROJECT_ROOT}/config.json" >&2

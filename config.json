@@ -3,11 +3,41 @@
     "width": 1085,
     "height": 767
   },
+  "standard_image_size": {
+    "width": 384,
+    "height": 271
+  },
   "initial_crop_box": {
-    "x1": 30,
-    "y1": 120,
-    "x2": 1040,
-    "y2": 680
+    "x1": 17,
+    "y1": 143,
+    "x2": 1065,
+    "y2": 675
+  },
+  "patient_reference_crop_boxes": {
+    "P-00001": {
+      "x1": 17,
+      "y1": 143,
+      "x2": 1065,
+      "y2": 675
+    },
+    "P-00002": {
+      "x1": 20,
+      "y1": 135,
+      "x2": 1070,
+      "y2": 685
+    },
+    "P-00007": {
+      "x1": 30,
+      "y1": 150,
+      "x2": 1040,
+      "y2": 680
+    },
+    "P-00015": {
+      "x1": 45,
+      "y1": 138,
+      "x2": 1070,
+      "y2": 694
+    }
   },
   "model_paths": {
     "lightweight_severity_model": "data/model-training-lightweight/final_lightweight_severity_ridge_model.npz",

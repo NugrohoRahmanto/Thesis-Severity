@@ -1,5 +1,7 @@
 # ECG PVC and Severity Estimation Pipeline
 
+![Architecture Diagram](images/architecture.png)
+
 This repository contains the research pipeline for PVC beat extraction from 12-lead ECG images and downstream severity estimation using clinical 1D data, YOLO PVC detections, image embeddings, and mapping-derived severity labels.
 
 The project is organized as a reproducible notebook workflow, with a Streamlit app used only for demo inference and presentation.
